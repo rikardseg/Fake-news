@@ -17,9 +17,10 @@ require __DIR__.'/data.php';
 
 <body>
 
-<?php foreach($articles as $article): 
-    echo $article['title'];?>
+<?php foreach($articles as $article): ?>
+    <h1><?php echo $article['title'];?></h1>
      <br>
+     <p><?php echo $article['content'];?></p>
 <?php endforeach;?>
 </body>
 
