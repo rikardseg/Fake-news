@@ -10,5 +10,13 @@ function getAuthorById(array $authors, int $articlesId): string
         }
     }
 }
+
+function sortByDate(array $articles): array
+{
+    usort($articles, function ($a, $b) {
+        return $b['published_date'] <=> $a['published_date'];
+    });
+    return $articles;
+}
 // This is the file where you can keep all your functions. Remember to NOT
 // execute/run any functions in this file. Keep it dumb.
