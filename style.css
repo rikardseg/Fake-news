@@ -1,7 +1,15 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: coral;
 }
 
 h2 {
-    color: blueviolet;
+    color: brown;
+}
+
+button {
+    color: dodgerblue;
 }
