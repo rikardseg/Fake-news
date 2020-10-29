@@ -13,6 +13,6 @@ In the command line you can type git clone https://github.com/rikardseg/Fake-new
 4. Type php -S localhost:8000 in your command line to open a server.
 5. Visit localhost:8000 in your browser.
 
-#Code Review
+# Code Review
 
-#Testers
+# Testers
