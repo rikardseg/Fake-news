@@ -11,6 +11,8 @@ function getAuthorById(array $authors, int $articlesId): string
     }
 }
 
+// This function connects id in author array with id in articles array, and then returns author name from authors array.
+
 function sortByDate(array $articles): array
 {
     usort($articles, function ($a, $b) {
@@ -18,5 +20,4 @@ function sortByDate(array $articles): array
     });
     return $articles;
 }
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
+// This function sorts published date from latest to last.

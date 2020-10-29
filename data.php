@@ -2,8 +2,7 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep your data arrays such as articles and
-// authors.
+// These are my arrays, one containing authors and one with articles.
 
 $authors = [
     ['id' => 2, 'name' => 'Mr Coffee'],
@@ -17,11 +16,11 @@ $articles = [
     [
         'title' => "Don't Smile",
         'img' => 'img/dwight.jpg',
-        'content' => '<p>When someone smiles at me, all I see is a chimpanzee begging for its life. Black est decaffeinated instant, turkish cultivar sugar wings single shot.<br> Aromatic, fair trade flavour froth as variety grinder crema foam beans ut medium. Caramelization mug in carajillo, coffee carajillo redeye strong a white.</p><p> Plunger pot cappuccino, medium, crema est americano mazagran, robust aged decaffeinated con panna rich.</p>',
+        'content' => '<p>When someone smiles at me, all I see is a chimpanzee begging for its life. Black est decaffeinated instant, turkish cultivar sugar wings single shot.<br> Aromatic, fair trade flavour froth as variety grinder crema foam beans ut medium. </p><p>Caramelization mug in carajillo, coffee carajillo redeye strong a white. Plunger pot cappuccino, medium, crema est americano mazagran, robust aged decaffeinated con panna rich.</p>',
         'authors_id' => 1,
         'published_date' => "2013-8-19",
         'alt' => 'Dwight',
-        'like counter' => 20
+        'like counter' => 43
     ],
 
     [
@@ -31,7 +30,7 @@ $articles = [
         'authors_id' => 1,
         'published_date' => "2013-9-15",
         'alt' => 'Dwight talking about christmas',
-        'like counter' => 20
+        'like counter' => 55
     ],
 
     [
@@ -41,27 +40,27 @@ $articles = [
         'authors_id' => 2,
         'published_date' => "2013-9-27",
         'alt' => 'Coffee',
-        'like counter' => 20
+        'like counter' => 42
     ],
 
     [
         'title' => 'Creamy Coffee',
-        'content' => "As café au lait cinnamon latte a crema aftertaste. Crema froth medium, froth blue mountain robusta kopi-luwak frappuccino. Robusta pumpkin spice id mug, to go, con panna id crema galão trifecta. Saucer, ristretto flavour americano espresso carajillo plunger pot coffee. Mazagran chicory crema grounds, mug organic rich redeye cappuccino robusta plunger pot.",
+        'content' => "As café au lait cinnamon latte a crema aftertaste. Crema froth medium, froth blue mountain robusta kopi-luwak frappuccino. Robusta pumpkin spice id mug, to go, con panna id crema galão trifecta. <p>Saucer, ristretto flavour americano espresso carajillo plunger pot coffee. Mazagran chicory crema grounds, mug organic rich redeye cappuccino robusta plunger pot.</p>",
         'img' => 'img/mrcoffee2.jpg',
         'authors_id' => 2,
         'published_date' => "2013-10-5",
         'alt' => 'Coffee',
-        'like counter' => 20
+        'like counter' => 37
     ],
 
     [
         'title' => 'Idiot-proof',
-        'content' => "Before I do anything, I ask myself... 'Would an idiot do that?' And if the answer is yes, I do not do that thing. A affogato sugar, roast frappuccino, grounds caramelization seasonal cappuccino mocha. Crema, mug, filter french press, dark seasonal coffee beans qui single shot cup milk. Crema, percolator rich viennese foam eu grounds grinder. Saucer, cup siphon, as black strong half and half barista mocha cream.",
+        'content' => "Before I do anything, I ask myself... 'Would an idiot do that?' And if the answer is yes, I do not do that thing. A affogato sugar, roast frappuccino, grounds caramelization seasonal cappuccino mocha. <p>Crema, mug, filter french press, dark seasonal coffee beans qui single shot cup milk. Crema, percolator rich viennese foam eu grounds grinder. Saucer, cup siphon, as black strong half and half barista mocha cream.</p>",
         'img' => 'img/dwightjim.jpg',
         'authors_id' => 3,
         'published_date' => "2013-10-22",
         'alt' => 'Dwight and Jim sitting together',
-        'like counter' => 20
+        'like counter' => 50
     ],
 
     [
@@ -71,17 +70,17 @@ $articles = [
         'authors_id' => 3,
         'published_date' => "2014-1-17",
         'alt' => 'Dwight peaking from behind the blinders',
-        'like counter' => 20
+        'like counter' => 35
     ],
 
     [
         'title' => "Mozart's Friend",
-        'content' => "I have been Michael's number two guy for about five years. And we make a great team. We're like one of those classic famous teams. He's like Mozart and I'm like... Mozart's friend. No. I'm like Butch Cassidy and Michael is like... Mozart. You try and hurt Mozart? You're gonna get a bullet in your head, courtesy of Butch Cassidy.",
+        'content' => "I have been Michael's number two guy for about five years. And we make a great team. We're like one of those classic famous teams. He's like Mozart and I'm like... Mozart's friend. <p>No. I'm like Butch Cassidy and Michael is like... Mozart. You try and hurt Mozart? You're gonna get a bullet in your head, courtesy of Butch Cassidy.</p>",
         'img' => 'img/michael.jpg',
         'authors_id' => 4,
         'published_date' => "2014-3-5",
         'alt' => 'Michael Portrait',
-        'like counter' => 20
+        'like counter' => 23
     ],
 
     [
@@ -91,17 +90,17 @@ $articles = [
         'authors_id' => 4,
         'published_date' => "2015-6-8",
         'alt' => 'Michael being uncomfortable',
-        'like counter' => 20
+        'like counter' => 15
     ],
 
     [
         'title' => 'Accidentally Hurt',
-        'content' => "It’s better to be hurt by someone you know accidentally, than by a stranger on purpose. Filter plunger pot sugar extraction roast caffeine body grinder variety caffeine. Wings, frappuccino, cortado chicory, coffee, medium galão aged frappuccino at cortado medium. Beans, at robusta aftertaste strong barista coffee aroma barista doppio.",
+        'content' => "It’s better to be hurt by someone you know accidentally, than by a stranger on purpose. Filter plunger pot sugar extraction roast caffeine body grinder variety caffeine. <p>Wings, frappuccino, cortado chicory, coffee, medium galão aged frappuccino at cortado medium. Beans, at robusta aftertaste strong barista coffee aroma barista doppio.</p>",
         'img' => 'img/jim.jpg',
         'authors_id' => 5,
         'published_date' => "2015-4-13",
         'alt' => 'Jim looking at camera',
-        'like counter' => 20
+        'like counter' => 22
     ],
 
     [
@@ -111,6 +110,6 @@ $articles = [
         'authors_id' => 5,
         'published_date' => "2016-5-11",
         'alt' => 'Pam looking at camera',
-        'like counter' => 20
+        'like counter' => 37
     ],
 ];

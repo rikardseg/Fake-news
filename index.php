@@ -3,9 +3,7 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-// This is the file where you can keep your HTML markup. We should always try to
-// keep us much logic out of the HTML as possible. Put the PHP logic in the top
-// of the files containing HTML or even better; in another PHP file altogether.
+// This is my HTML document.
 
 ?>
 <!DOCTYPE html>
@@ -26,18 +24,20 @@ require __DIR__ . '/functions.php';
     </header>
     <article>
         <?php foreach (sortByDate($articles) as $article) : ?>
-            <div class="container-fluid">
-                <div class="content">
-                    <div class="text center">
-                        <h2><?php echo $article['title']; ?></h2>
-                        <br>
-                        <img src="<?php echo $article['img']; ?>" class="img-fluid" alt="<?php echo $article['alt']; ?>">
-                        <p><?php echo $article['content']; ?></p>
-                        <em>Author: <?php echo getAuthorById($authors, $article['authors_id']); ?></em>
-                        <br>
-                        <time><?php echo $article['published_date']; ?></time>
-                        <br>
-                        <button style="font-size:18px"><i class="fa fa-thumbs-o-up"></i> <?php echo $article['like counter']; ?></button>
+            <div class="mx-auto" style="width: 320px;">
+                <div class="container-fluid">
+                    <div class="content">
+                        <div class="text center">
+                            <h2><?php echo $article['title']; ?></h2>
+                            <br>
+                            <img src="<?php echo $article['img']; ?>" class="img-fluid" alt="<?php echo $article['alt']; ?>">
+                            <p><?php echo $article['content']; ?></p>
+                            <em>Author: <?php echo getAuthorById($authors, $article['authors_id']); ?></em>
+                            <br>
+                            <time><?php echo $article['published_date']; ?></time>
+                            <br>
+                            <button style="font-size:18px"><i class="fa fa-thumbs-o-up"></i> <?php echo $article['like counter']; ?></button>
+                        </div>
                     </div>
                 </div>
             </div>
