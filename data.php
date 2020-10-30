@@ -16,7 +16,7 @@ $articles = [
     [
         'title' => "Don't Smile",
         'img' => 'img/dwight.jpg',
-        'content' => '<p>When someone smiles at me, all I see is a chimpanzee begging for its life. Black est decaffeinated instant, turkish cultivar sugar wings single shot.<br> Aromatic, fair trade flavour froth as variety grinder crema foam beans ut medium. </p><p>Caramelization mug in carajillo, coffee carajillo redeye strong a white. Plunger pot cappuccino, medium, crema est americano mazagran, robust aged decaffeinated con panna rich.</p>',
+        'content' => 'When someone smiles at me, all I see is a chimpanzee begging for its life. Black est decaffeinated instant, turkish cultivar sugar wings single shot.<br> Aromatic, fair trade flavour froth as variety grinder crema foam beans ut medium. <p>Caramelization mug in carajillo, coffee carajillo redeye strong a white. Plunger pot cappuccino, medium, crema est americano mazagran, robust aged decaffeinated con panna rich.</p>',
         'authors_id' => 1,
         'published_date' => "2013-8-19",
         'alt' => 'Dwight',
