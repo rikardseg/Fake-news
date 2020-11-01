@@ -30,7 +30,6 @@ require __DIR__ . '/functions.php';
                     <div class="content">
                         <div class="text center">
                             <h2><?php echo $article['title']; ?></h2>
-                            <br>
                             <img src="<?php echo $article['img']; ?>" class="img-fluid" alt="<?php echo $article['alt']; ?>">
                             <p><?php echo $article['content']; ?></p>
                             <em>Author: <?php echo getAuthorById($authors, $article['authors_id']); ?></em>

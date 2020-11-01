@@ -19,7 +19,7 @@ $articles = [
         'content' => 'When someone smiles at me, all I see is a chimpanzee begging for its life. Black est decaffeinated instant, turkish cultivar sugar wings single shot.<br> Aromatic, fair trade flavour froth as variety grinder crema foam beans ut medium. <p>Caramelization mug in carajillo, coffee carajillo redeye strong a white. Plunger pot cappuccino, medium, crema est americano mazagran, robust aged decaffeinated con panna rich.</p>',
         'authors_id' => 1,
         'published_date' => "2013-8-19",
-        'alt' => 'Dwight',
+        'alt' => 'Dwight looking into camera',
         'like counter' => 43
     ],
 
@@ -95,7 +95,7 @@ $articles = [
 
     [
         'title' => 'Accidentally Hurt',
-        'content' => "It’s better to be hurt by someone you know accidentally, than by a stranger on purpose. Filter plunger pot sugar extraction roast caffeine body grinder variety caffeine. <p>Wings, frappuccino, cortado chicory, coffee, medium galão aged frappuccino at cortado medium. Beans, at robusta aftertaste strong barista coffee aroma barista doppio.</p>",
+        'content' => "It’s better to be hurt by someone you know accidentally, than by a stranger on purpose. Filter plunger pot sugar extraction roast caffeine body grinder variety caffeine. <p>Wings, frappuccino, cortado chicory, coffee, medium galão aged frappuccino at cortado medium. Beans, at robusta aftertaste strong barista coffee aroma barista doppio.",
         'img' => 'img/jim.jpg',
         'authors_id' => 5,
         'published_date' => "2015-4-13",

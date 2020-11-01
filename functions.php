@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+// This function connects id in author array with id in articles array, 
+//and then returns author name from authors array.
+
 function getAuthorById(array $authors, int $articlesId): string
 {
     foreach ($authors as $author) {
@@ -11,7 +14,7 @@ function getAuthorById(array $authors, int $articlesId): string
     }
 }
 
-// This function connects id in author array with id in articles array, and then returns author name from authors array.
+// This function sorts published date from latest to last.
 
 function sortByDate(array $articles): array
 {
@@ -20,4 +23,3 @@ function sortByDate(array $articles): array
     });
     return $articles;
 }
-// This function sorts published date from latest to last.
